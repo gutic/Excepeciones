@@ -3,7 +3,7 @@
 Module tryDivision
     Sub Main()
         Dim a, b As Decimal
-        a = 10001
+        a = 100
         b = 0
         Dim operacionDividir As New dividir
         Try
