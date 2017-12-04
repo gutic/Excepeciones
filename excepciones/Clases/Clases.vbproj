@@ -63,8 +63,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agencia.vb" />
     <Compile Include="clase1.vb" />
+    <Compile Include="Cliente.vb" />
+    <Compile Include="Ciudad.vb" />
     <Compile Include="dividir.vb" />
+    <Compile Include="Hotel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -80,6 +84,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Paquete.vb" />
+    <Compile Include="Pasaje.vb" />
+    <Compile Include="Pasajero.vb" />
+    <Compile Include="Producto.vb" />
+    <Compile Include="Venta.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
